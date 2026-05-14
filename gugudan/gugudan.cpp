@@ -13,7 +13,7 @@ int main() {
     ran_num = rand() % 100 + 1;
 
     cout << "guess?" << endl;
-    ran_num = rand();
+    
     cin >> num1;
   
     while (num1 != ran_num) {
