@@ -22,7 +22,7 @@ int main() {
     }
     else if (DS_VAL == 'D') {
         for (int i = 99; i > 0; i--) {
-            cout << i << endl;
+            cout << i << endl; // end ;;
         }
     }
     //dificult
