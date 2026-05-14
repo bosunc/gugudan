@@ -15,7 +15,7 @@ int main() {
         return 1; // error code
     }
 
-    if (DS_VAL == 'A') {
+    if (DS_VAL == 'A') { // fandan
         for (int i = 1; i < 100; i++) {
             cout << i << endl;
         }
