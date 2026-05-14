@@ -1,19 +1,30 @@
 #include <iostream>
-
 using namespace std;
 
 int main() {
-	int gugu;
-	cout << "input number : " << endl;
-	cin >> gugu;
+    char DS_VAL;
 
-	cout << "you input " << gugu << "dan" << endl;
-	cout << "--------------------==------" << endl;
-	for (int i = 1; i < 10; i++) {
-		cout << gugu << " X " << i << " = " << gugu * i << endl;
-	}
-	return 0;
+    cout << "input type : DESCENDING => D, ASCENDING => A" << endl;
+    cin >> DS_VAL;
 
+    if (DS_VAL == 'a') DS_VAL = 'A';
+    if (DS_VAL == 'd') DS_VAL = 'D';
 
+    if (DS_VAL != 'D' && DS_VAL != 'A') {
+        cout << "Input value error" << endl;
+        return 1;
+    }
 
+    if (DS_VAL == 'A') {
+        for (int i = 1; i < 100; i++) {
+            cout << i << endl;
+        }
+    }
+    else if (DS_VAL == 'D') {
+        for (int i = 99; i > 0; i--) {
+            cout << i << endl;
+        }
+    }
+
+    return 0;
 }
