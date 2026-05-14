@@ -8,14 +8,19 @@ int main() {
     cout << "guess?" << endl;
     ran_num = rand();
     cin >> num1;
-    if (num1 == ran_num) {
-        cout << "correct!! " << endl;
-    }
-    else if (num1 > ran_num) {
-        cout << "bigger than the answer" << endl;
+  
+    while (num1 != ran_num) {
+        if (num1 > ran_num) {
+            cout << "bigger than number" << ran_num << endl;
+        }
+        else {
+            cout << "smaller than number" << ran_num << endl;
+
+        }
+        
+        cin >> num1;
 
     }
-   // cout << ran_num << endl;
-
+    cout << "you are correct" << ran_num << " is the number" << endl;
     return 0;
 }
