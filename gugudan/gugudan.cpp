@@ -8,7 +8,7 @@ int main() {
     cin >> DS_VAL; // input 한글 +++
 
     if (DS_VAL == 'a') DS_VAL = 'A';
-    if (DS_VAL == 'd') DS_VAL = 'D';
+    if (DS_VAL == 'd') DS_VAL = 'D'; // 추가주석
 
     if (DS_VAL != 'D' && DS_VAL != 'A') {
         cout << "Input value error" << endl;
