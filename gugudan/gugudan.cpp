@@ -5,7 +5,7 @@ int main() {
     char DS_VAL; //ice
 
     cout << "input type : DESCENDING => D, ASCENDING => A" << endl;
-    cin >> DS_VAL;
+    cin >> DS_VAL; // input
 
     if (DS_VAL == 'a') DS_VAL = 'A';
     if (DS_VAL == 'd') DS_VAL = 'D';
