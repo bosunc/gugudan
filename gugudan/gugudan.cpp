@@ -12,7 +12,7 @@ int main() {
 
     if (DS_VAL != 'D' && DS_VAL != 'A') {
         cout << "Input value error" << endl;
-        return 1; // error code
+        return 1; // error code // sorcr
     }
 
     if (DS_VAL == 'A') { // fandan
