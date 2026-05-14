@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-    char DS_VAL; //ice
+    char DS_VAL; //ice =====
 
     cout << "input type : DESCENDING => D, ASCENDING => A" << endl;
     cin >> DS_VAL; // input 한글
