@@ -18,7 +18,7 @@ int main() {
     if (DS_VAL == 'A') { // fandan
         for (int i = 1; i < 100; i++) {
             cout << i << endl;
-        }
+        } // 주석추가
     }
     else if (DS_VAL == 'D') {
         for (int i = 99; i > 0; i--) {
