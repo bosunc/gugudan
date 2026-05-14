@@ -11,10 +11,10 @@ int main() {
   
     while (num1 != ran_num) {
         if (num1 > ran_num) {
-            cout << "bigger than number" << ran_num << endl;
+            cout << "bigger than number" <<  endl;
         }
         else {
-            cout << "smaller than number" << ran_num << endl;
+            cout << "smaller than number" <<  endl;
 
         }
         
